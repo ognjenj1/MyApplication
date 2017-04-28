@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39add1"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context="com.example.ognjen.myapplication.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@android:color/background_light"
+        android:text="Button"
+        android:textColor="#39add1"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Kakoe"
+        android:textColor="#eeffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="102dp"
+        android:text="Brate ovo je"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+</RelativeLayout>
