@@ -5,8 +5,8 @@ import android.graphics.Color;
 import java.util.Random;
 
 public class ListaRecenica {
-    private final String[] niz = {"Crvena", "Siva", "Zelena", "Ljubicasta", "Svetlo Plava"};
-    private final int[] boje = {Color.RED,Color.GRAY,Color.GREEN,Color.MAGENTA,Color.CYAN};
+    private final String[] niz = {"Crvena", "Siva", "Zelena", "Ljubicasta", "Svetlo Plava", "Magenta"};
+    private final int[] boje = {Color.RED,Color.GRAY,Color.GREEN,Color.MAGENTA,Color.CYAN,Color.MAGENTA};
     private int boja;
     public String getRecenica() {
         String recenica = "";
